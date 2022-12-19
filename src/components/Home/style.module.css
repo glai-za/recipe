@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  min-height: 100vh;
+  background: rgb(228, 233, 189);
+  color: rgb(228, 178, 117);
+  width: 100vw;
+  font-size: 20px;
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.inputBox {
+  padding: 10px;
+  outline: none;
+  width: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px;
+}
+.searchButton {
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(228, 178, 117);
+  background: rgb(212, 233, 182);
+}
+.mealsBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+img {
+  width: 300px;
+  margin: 40px;
+  border: 1px solid rgb(101, 101, 69);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+.mealChoice {
+  text-align: center;
+}

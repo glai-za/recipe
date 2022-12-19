@@ -1,0 +1,19 @@
+.mealCategory {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(228, 233, 189);
+}
+.category {
+  color: rgb(228, 178, 117);
+  font-size: 20px;
+}
+.categoryPic {
+  width: 250px;
+  border: none;
+}
+h3 {
+  text-align: center;
+}
